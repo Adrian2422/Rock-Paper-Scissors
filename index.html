@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="app.js" async defer></script>
+    <header class="header">
+      <h1 class="main__title">Rock paper scissors</h1>
+    </header>
+    <main class="main">
+      <div class="main__backdrop--off"></div>
+      <button class="main__start">Start</button>
+      <div class="main__board--hidden">
+        <div class="board__col--left"></div>
+        <div class="board__col--mid">VS</div>
+        <div class="board__col--right"></div>
+      </div>
+        <div class="modal__verdict--hidden">
+          <p class="modal__verdict--text"></p>
+        </div>
+      
+      <div class="modal__options--hidden">
+        <h2 class="modal__options--text">Choose your weapon!</h2>
+        <div class="modal__option--container">
+          <div class="modal__option--rock"><p>rock</p></div>
+          <div class="modal__option--paper"><p>paper</p></div>
+          <div class="modal__option--scissors"><p>scissors</p></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
